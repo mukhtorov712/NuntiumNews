@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nuntium News</string>
+    <string name="nuntium">"Nuntium"</string>
+    <string name="next">"Sonraki"</string>
+    <string name="get_started">"Başlamak"</string>
+    <string name="browse">"Araştır"</string>
+    <string name="search">"Arama"</string>
+    <string name="by">"ile "</string>
+    <string name="settings">"Ayarlar"</string>
+    <string name="dark_mode">"Karanlık mod"</string>
+    <string name="categories">"Kategoriler"</string>
+    <string name="cat_des">"Her kategoride binlerce makale"</string>
+    <string name="bookmarks">"Yer imleri"</string>
+    <string name="book_des">"Kitaplığa kaydedilen makaleler"</string>
+    <string name="no_saved_des">"Henüz herhangi bir makale kaydetmediniz. Şimdi okumaya ve yer imlerine eklemeye başlayın"</string>
+    <string name="news_title">"BOE valisi, kripto yatırımcılarının tüm paralarını kaybetmeye hazır olması gerektiğini söylüyor"</string>
+    <string name="news_author">"Ryan Browne"</string>
+    <string name="rec_for_you">"Sizin için tavsiye"</string>
+    <string name="see_all">"Hepsi"</string>
+    <string name="home_des">"Bu dünyaya ait şeyleri keşfedin"</string>
+    <string name="language">"Dil"</string>
+    <string name="english">"Ingilizce"</string>
+    <string name="russian">"Rusça"</string>
+    <string name="german">"Almanca"</string>
+    <string name="turkish">"Türk"</string>
+    <string name="first_tv">"Ilk bilmek</string>
+    <string name="second_tv">"Tüm haberler tek bir yerde, son haberleri ilk öğrenen siz olun</string>
+    <string name="top_tv">"Favori konularınızı seçin</string>
+    <string name="bottom_tv">"Sizin için daha iyi haberler önermemize izin vermek için favori konularınızdan bazılarını seçin"</string>
+</resources>

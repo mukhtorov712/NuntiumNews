@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nuntium News</string>
+    <string name="nuntium">"Nuntium"</string>
+    <string name="next">"Следующий"</string>
+    <string name="get_started">"Начать"</string>
+    <string name="browse">"Просматривать"</string>
+    <string name="search">"Поиск"</string>
+    <string name="by">"по "</string>
+    <string name="settings">"Настройки"</string>
+    <string name="dark_mode">"Темный режим"</string>
+    <string name="categories">"Категории"</string>
+    <string name="cat_des">"Тысячи статей в каждой категории"</string>
+    <string name="bookmarks">"Закладки"</string>
+    <string name="book_des">"Сохраненные статьи в библиотеку"</string>
+    <string name="no_saved_des">"Вы еще не сохранили ни одной статьи. Начните читать и добавьте их в закладки прямо сейчас"</string>
+    <string name="news_title">"Криптоинвесторы должны быть готовы потерять все свои деньги, говорит глава Банка Англии"</string>
+    <string name="news_author">"Райан Браун"</string>
+    <string name="rec_for_you">"Рекомендуется для вас"</string>
+    <string name="see_all">"Все"</string>
+    <string name="home_des">"Откройте для себя вещи этого мира"</string>
+    <string name="language">"Язык"</string>
+    <string name="english">"Английский"</string>
+    <string name="russian">"Русский"</string>
+    <string name="german">"Немецкий"</string>
+    <string name="turkish">"Турецкий"</string>
+    <string name="first_tv">"Первый, кто узнает</string>
+    <string name="second_tv">"Все новости в одном месте, узнавайте последние новости первыми</string>
+    <string name="top_tv">"Выберите ваши любимые темы</string>
+    <string name="bottom_tv">"Выберите некоторые из ваших любимых тем, чтобы мы предложили вам лучшие новости"</string>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nuntium News</string>
+    <string name="nuntium">"Nuntium"</string>
+    <string name="next">"Next"</string>
+    <string name="get_started">"Get Started"</string>
+    <string name="browse">"Browse"</string>
+    <string name="search">"Search"</string>
+    <string name="by">"by "</string>
+    <string name="settings">"Settings"</string>
+    <string name="dark_mode">"Dark mode"</string>
+    <string name="categories">"Categories"</string>
+    <string name="cat_des">"Thousands of articles in each category"</string>
+    <string name="bookmarks">"Bookmarks"</string>
+    <string name="book_des">"Saved articles to the library"</string>
+    <string name="no_saved_des">"You haven't saved any articles yet. Start reading and bookmarking them now"</string>
+    <string name="news_title">"Crypto investors should be prepared to lose all their money, BOE governor says"</string>
+    <string name="news_author">"Ryan Browne"</string>
+    <string name="rec_for_you">"Recommended for you"</string>
+    <string name="see_all">"See all"</string>
+    <string name="home_des">"Discover things of this world"</string>
+    <string name="language">"Language"</string>
+    <string name="english">"English"</string>
+    <string name="russian">"Russian"</string>
+    <string name="german">"German"</string>
+    <string name="turkish">"Turkish"</string>
+    <string name="first_tv">"First to know</string>
+    <string name="second_tv">"All news in one place, be the first to know last news</string>
+    <string name="top_tv">"Select your favorite topics</string>
+    <string name="bottom_tv">"Select some of your favorite topics to let us suggest better news for you"</string>
+</resources>

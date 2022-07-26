@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nuntium News</string>
+    <string name="nuntium">"Nuntium"</string>
+    <string name="next">"Nächste"</string>
+    <string name="get_started">"Loslegen"</string>
+    <string name="browse">"Durchsuche"</string>
+    <string name="search">"Suche"</string>
+    <string name="by">"durch "</string>
+    <string name="settings">"Einstellungen"</string>
+    <string name="dark_mode">"Dunkler Modus"</string>
+    <string name="categories">"Kategorien"</string>
+    <string name="cat_des">"Tausende von Artikeln in jeder Kategorie"</string>
+    <string name="bookmarks">"Lesezeichen"</string>
+    <string name="book_des">"Gespeicherte Artikel in der Bibliothek"</string>
+    <string name="no_saved_des">"Sie haben noch keine Artikel gespeichert. Fangen Sie jetzt an, sie zu lesen und zu bookmarken"</string>
+    <string name="news_title">"Krypto-Investoren sollten bereit sein, ihr gesamtes Geld zu verlieren, sagt der Gouverneur der BOE"</string>
+    <string name="news_author">"Ryan Browne"</string>
+    <string name="rec_for_you">"Für dich empfohlen"</string>
+    <string name="see_all">"Alles"</string>
+    <string name="home_des">"Entdecken Sie Dinge dieser Welt"</string>
+    <string name="language">"Sprache"</string>
+    <string name="english">"Englisch"</string>
+    <string name="russian">"Russisch"</string>
+    <string name="german">"Deutsch"</string>
+    <string name="turkish">"Türkisch"</string>
+    <string name="first_tv">"Zuerst wissen</string>
+    <string name="second_tv">"All news in one place, be the first to know last news</string>
+    <string name="top_tv">"Wählen Sie Ihre Lieblingsthemen aus</string>
+    <string name="bottom_tv">"Wählen Sie einige Ihrer Lieblingsthemen aus, damit wir Ihnen bessere Nachrichten vorschlagen können"</string>
+</resources>
