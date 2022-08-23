@@ -43,6 +43,5 @@ class MainActivity : AppCompatActivity() {
             }
             finish()
         }, 500)
-
     }
 }

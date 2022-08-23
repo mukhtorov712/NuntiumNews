@@ -37,6 +37,7 @@ class HomeActivity : AppCompatActivity() {
                 }
                 R.id.navigation_home -> {
                     binding.navView.selectedItemId = R.id.navigation_home
+                    showBottom()
                 }
                 else -> showBottom()
             }
