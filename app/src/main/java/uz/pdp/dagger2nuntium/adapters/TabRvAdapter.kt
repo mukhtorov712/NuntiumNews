@@ -7,11 +7,14 @@ import android.widget.Toast
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
+import com.squareup.picasso.Callback
 import com.squareup.picasso.Picasso
 import uz.pdp.dagger2nuntium.R
 import uz.pdp.dagger2nuntium.database.entity.Article
 import uz.pdp.dagger2nuntium.databinding.ItemTabRvBinding
+import uz.pdp.dagger2nuntium.utils.hide
 import uz.pdp.dagger2nuntium.viewmodels.SaveViewModel
+import java.lang.Exception
 
 class TabRvAdapter(
     private val viewModel: SaveViewModel,
@@ -35,7 +38,13 @@ class TabRvAdapter(
         fun onBind(article: Article) {
             itemBinding.apply {
                 if (article.urlToImage?.isNotEmpty() == true) {
-                    Picasso.get().load(article.urlToImage).resize(200, 200).centerCrop().into(image)
+                    Picasso.get().load(article.urlToImage).resize(200, 200).centerCrop().into(image, object :
+                        Callback {
+                        override fun onSuccess() {
+                            placeholder.hide()
+                        }
+                        override fun onError(e: Exception?) {}
+                    })
                 }
                 title.text = article.title
                 author.text = article.author

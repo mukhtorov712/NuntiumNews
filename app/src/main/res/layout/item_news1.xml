@@ -27,7 +27,15 @@
             android:layout_height="match_parent"
             android:scaleType="centerCrop"
             android:background="@color/text_color"
-            tools:ignore="ContentDescription" />
+            tools:ignore="ContentDescription"/>
+
+        <ImageView
+            android:id="@+id/placeholder"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_photo"
+            android:layout_margin="@dimen/_12sdp"
+            />
     </com.google.android.material.card.MaterialCardView>
     <LinearLayout
         android:id="@+id/layout"

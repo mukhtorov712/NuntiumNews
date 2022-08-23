@@ -11,7 +11,7 @@ import javax.inject.Inject
 
 
 fun ImageView.setImage(url: String?) {
-    Picasso.get().load(url).into(this)
+    Picasso.get().load(url).resize(300,200).into(this)
 }
 
 fun View.hide() {

@@ -6,9 +6,13 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
+import com.squareup.picasso.Callback
 import com.squareup.picasso.Picasso
+import uz.pdp.dagger2nuntium.R
 import uz.pdp.dagger2nuntium.database.entity.Article
 import uz.pdp.dagger2nuntium.databinding.ItemNews1Binding
+import uz.pdp.dagger2nuntium.utils.hide
+import java.lang.Exception
 
 class HomeRvAdapter(private val listener: OnNewsItemClickListener) :
     ListAdapter<Article, HomeRvAdapter.Vh>(MyDiffUtil()) {
@@ -27,9 +31,12 @@ class HomeRvAdapter(private val listener: OnNewsItemClickListener) :
         RecyclerView.ViewHolder(itemBinding.root) {
         fun onBind(article: Article) {
             itemBinding.apply {
-                if (article.urlToImage?.isNotEmpty() == true) {
-                    Picasso.get().load(article.urlToImage).resize(50, 50).centerCrop().into(image)
-                }
+                    Picasso.get().load(article.urlToImage).resize(70, 70).centerCrop().into(image, object :Callback{
+                        override fun onSuccess() {
+                            placeholder.hide()
+                        }
+                        override fun onError(e: Exception?) {}
+                    })
                 title.text = article.title
                 author.text = article.author
             }
